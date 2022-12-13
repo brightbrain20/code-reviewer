@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="flex">
+       
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <div class="form-box">
+    <form action="" id="survey-form">
+        <label id="name-label"  for="">Name</label>
+        <div><input type="text" id="name" required placeholder="Enter your name"></div>
+        <label id="email-label"  for="">Email</label>
+        <div><input type="email" required placeholder="Enter your Email" id="email"></div>
+         <label id="number-label" for="">Age (optional)</label>
+         <div><input type="number" placeholder="Age" min="1" max="100" id="number"></div>
+         <p>Which option best describes your current role?</p>
+         
+            <select name="" id="dropdown" aria-placeholder="Select current role">
+                <option value="" >PREFER NOT TO SAY</option>
+                <option value="" >STUDENT</option>
+                <option value="" >FULL TIME JOB</option>
+                <option value="" >FULL TIME LEARNER</option>
+                <option value="" >OTHERS</option>
+              </select>
+         
+         <div id="radio-box"><input type="radio"  value="radio" name="radio buttons">Definitely</div>
+         <div id="radio-box"><input type="radio" id="radio" value="radio" name="radio buttons">Maybe</div>
+         <div id="radio-box"><input type="radio" class="radio" value="radio" name="radio buttons">Not sure</div>
+       <p>What is your favorite feature of freeCodeCamp?</p>
+       <select name="" id="dropdown">
+           <option value="">Challenges</option>
+           <option value="">Projects</option>
+           <option value="">Community</option>
+           <option value="">open Source</option>
+       </select>
+       <p class="p-checkbox">What would you like to see improved? (Check all that apply)</p>
+       <div class="checkbox"><input type="checkbox"  value="click">Front-end Projects</div>
+       <div class="checkbox"><input type="checkbox" value="click">Back-end Projects</div>
+       <div class="checkbox"><input type="checkbox" value="click">Data Visualization</div>
+       <div class="checkbox"><input type="checkbox" value="click">Challenges</div>
+       <div class="checkbox"><input type="checkbox" value="click">Open Source Community</div>
+       <div class="checkbox"><input type="checkbox" value="click">Gitter help rooms</div>
+       <div class="checkbox"><input type="checkbox" value="click">Videos</div>
+       <div class="checkbox"><input type="checkbox" value="click">City Meetups</div>
+       <div class="checkbox"><input type="checkbox" value="click">Wiki</div>
+       <div class="checkbox"><input type="checkbox" value="click">Forum</div>
+       <div class="checkbox"><input type="checkbox" value="click">Additional Courses</div>
+       <p>Any comments or suggestion?</p>
+       <textarea name="" placeholder="Enter your comment here..." maxlength="50px" id="" cols="45 fixed" rows=5"></textarea>
+       <div class="btm"><input type="submit" name="submit" id="submit"></div>
+    </form>
+</div>
+   </div>
+</body>
+</html>
